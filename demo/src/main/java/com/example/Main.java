@@ -5,6 +5,7 @@ public class Main {
         //new ProductExceptSelf().test();
         //new EraseOverlappingIntervals().test();
         //new ReverseWords().test();
-        new VerticalOrderTreeTraversal().test();
+        //new VerticalOrderTreeTraversal().test();
+        new StringEncoder().test();
     }
 }
