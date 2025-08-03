@@ -12,6 +12,7 @@ public class Main {
         //new DiffArrays().test();
         //new MaxVowelsInSubstring().test();
         //new MaxConsecutiveOnes().test();
-        new MoveZeros().test();
+        //new MoveZeros().test();
+        new IsSubsequence().test();
     }
 }
