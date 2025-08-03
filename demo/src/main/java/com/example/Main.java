@@ -6,6 +6,11 @@ public class Main {
         //new EraseOverlappingIntervals().test();
         //new ReverseWords().test();
         //new VerticalOrderTreeTraversal().test();
-        new StringEncoder().test();
+        //new StringEncoder().test();
+        //new KthSmallestInSortedMatrix().test();
+        //new KthLargestElementInArray().test();
+        //new DiffArrays().test();
+        //new MaxVowelsInSubstring().test();
+        new MaxConsecutiveOnes().test();
     }
 }
