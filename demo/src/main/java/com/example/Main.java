@@ -13,6 +13,8 @@ public class Main {
         //new MaxVowelsInSubstring().test();
         //new MaxConsecutiveOnes().test();
         //new MoveZeros().test();
-        new IsSubsequence().test();
+        //new IsSubsequence().test();
+        //new ContainerWithMostWater().test();
+        new RemoveStarsFromString().test();
     }
 }
