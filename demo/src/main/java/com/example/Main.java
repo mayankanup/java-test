@@ -11,6 +11,7 @@ public class Main {
         //new KthLargestElementInArray().test();
         //new DiffArrays().test();
         //new MaxVowelsInSubstring().test();
-        new MaxConsecutiveOnes().test();
+        //new MaxConsecutiveOnes().test();
+        new MoveZeros().test();
     }
 }
