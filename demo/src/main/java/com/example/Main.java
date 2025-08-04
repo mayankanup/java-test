@@ -15,6 +15,7 @@ public class Main {
         //new MoveZeros().test();
         //new IsSubsequence().test();
         //new ContainerWithMostWater().test();
-        new RemoveStarsFromString().test();
+        //new RemoveStarsFromString().test();
+        new AsteroidCollision().test();
     }
 }
