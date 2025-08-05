@@ -16,6 +16,7 @@ public class Main {
         //new IsSubsequence().test();
         //new ContainerWithMostWater().test();
         //new RemoveStarsFromString().test();
-        new AsteroidCollision().test();
+        //new AsteroidCollision().test();
+        new PhoneNumberToLetterCombinations().test();
     }
 }
