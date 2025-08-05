@@ -17,6 +17,7 @@ public class Main {
         //new ContainerWithMostWater().test();
         //new RemoveStarsFromString().test();
         //new AsteroidCollision().test();
-        new PhoneNumberToLetterCombinations().test();
+        //new PhoneNumberToLetterCombinations().test();
+        new CombinationSumK().test();
     }
 }
