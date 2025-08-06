@@ -18,6 +18,7 @@ public class Main {
         //new RemoveStarsFromString().test();
         //new AsteroidCollision().test();
         //new PhoneNumberToLetterCombinations().test();
-        new CombinationSumK().test();
+        //new CombinationSumK().test();
+        new HouseRobberDP().test();
     }
 }
