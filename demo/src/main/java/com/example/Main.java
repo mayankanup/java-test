@@ -19,6 +19,7 @@ public class Main {
         //new AsteroidCollision().test();
         //new PhoneNumberToLetterCombinations().test();
         //new CombinationSumK().test();
-        new HouseRobberDP().test();
+        //new HouseRobberDP().test();
+        new HidatoSolver().test();
     }
 }
