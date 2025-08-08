@@ -11,8 +11,10 @@ public class HidatoSolver {
 
     public void test(){
         List<Hidato> boards = new ArrayList<Hidato>();
-        boards.add(getBoard2());
-        boards.add(getBoard3());
+        //boards.add(getBoard2());
+        //boards.add(getBoard3());
+        boards.add(getBoard5());
+        boards.add(getBoard4());
         //boards.add(getBoard1());
         for (Hidato hidato: boards){
             //System.out.println(validate(board, start, end));
@@ -123,7 +125,7 @@ public class HidatoSolver {
         }
         
         // Skip cells that are already filled
-        if (board[row][col] != EMPTY && board[row][col] != BLOCKED) {
+        if (board[row][col] != EMPTY || board[row][col]==BLOCKED) {
             return solve(hidato, row, col + 1, filledValues);
         }
         
@@ -192,4 +194,42 @@ public class HidatoSolver {
         return false;
     }
 
+    private Hidato getBoard4() {
+        int [][] board = {
+            {-1,-1,-1,-1,0,5,-1,-1,-1,-1},
+            {-1,-1,-1,-1,3,6,-1,-1,-1,-1},
+            {-1,-1,0,33,2,0,0,0,-1,-1},
+            {-1,-1,0,0,1,0,11,0,-1,-1},
+            {-1,36,0,0,0,0,12,0,16,-1},
+            {-1,0,0,45,0,26,27,15,0,-1},
+            {39,42,56,55,0,0,0,24,21,18},
+            {0,41,0,0,0,0,0,0,20,0},
+            {-1,-1,-1,-1,51,0,-1,-1,-1,-1},
+            {-1,-1,-1,-1,0,50,-1,-1,-1,-1}
+        };
+        int start = 1;
+        int end = 56;
+        Hidato hidato = new Hidato();
+        hidato.board = board;
+        hidato.start = start;
+        hidato.end = end;
+
+        return hidato;
+    }
+    private Hidato getBoard5() {
+        int [][] board = {
+            {0,0,4,0},
+            {1,0,0,-1},
+            {-1,0,0,9},
+            {0,14,0,0}
+        };
+        int start = 1;
+        int end = 14;
+        Hidato hidato = new Hidato();
+        hidato.board = board;
+        hidato.start = start;
+        hidato.end = end;
+
+        return hidato;
+    }
 }
