@@ -20,6 +20,7 @@ public class Main {
         //new PhoneNumberToLetterCombinations().test();
         //new CombinationSumK().test();
         //new HouseRobberDP().test();
-        new HidatoSolver().test();
+        //new HidatoSolver().test();
+        new TupleHeap().test();
     }
 }

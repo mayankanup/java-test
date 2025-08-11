@@ -13,9 +13,10 @@ public class HidatoSolver {
         List<Hidato> boards = new ArrayList<Hidato>();
         //boards.add(getBoard2());
         //boards.add(getBoard3());
-        boards.add(getBoard5());
-        boards.add(getBoard4());
+        //boards.add(getBoard5());
+        //boards.add(getBoard4());
         //boards.add(getBoard1());
+        boards.add(getBoard6());
         for (Hidato hidato: boards){
             //System.out.println(validate(board, start, end));
             long t1 = System.currentTimeMillis();
@@ -225,6 +226,28 @@ public class HidatoSolver {
         };
         int start = 1;
         int end = 14;
+        Hidato hidato = new Hidato();
+        hidato.board = board;
+        hidato.start = start;
+        hidato.end = end;
+
+        return hidato;
+    }
+
+    private Hidato getBoard6() {
+        int [][] board = {
+            {-1,0,-1,0,-1,0,-1,0,-1},
+            {34,0,0,0,0,0,0,0,46},
+            {-1,0,0,56,39,-1,-1,47,-1},
+            {31,0,0,54,52,0,0,0,0},
+            {-1,29,0,0,24,23,0,0,-1},
+            {0,0,26,0,0,0,0,2,1},
+            {-1,0,0,0,0,62,3,0,-1},
+            {15,13,0,65,0,0,0,6,0},
+            {-1,14,-1,0,-1,0,-1,0,-1} 
+        };
+        int start = 1;
+        int end = 65;
         Hidato hidato = new Hidato();
         hidato.board = board;
         hidato.start = start;
